@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 393px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+
+.instapay-method-01{
+    font-family: Roboto;
+
+}
+
+.instapay {
+    height: 70px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.instapay h1 {
+    height: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    float: left;
+    padding-top: 15px;
+    margin-left: 120px;
+}
+
+.instapay h1 .text-style-1 {
+    font-weight: normal;
+}
+
+.header {
+    height: 40px;
+    background-color: #fcde99;
+}
+
+.by {
+    width: 83px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #3f3e45;
+    float: left;
+    padding-top: 15px;
+    margin-left: 120px;
+}
+
+.image-btn {
+    width: 28px;
+    height: 32px;
+    display: block;
+    padding: 4px;
+    margin: auto;
+}
+
+.main{
+    padding-top: 41px;
+    text-align: center;
+    margin:auto;
+}
+
+.text {
+    width: 100%;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #89888c;
+
+}
+.style a{
+    color: #161038;
+}
+
+.style:hover a{
+    text-decoration: none;
+}
+
+.style{
+    width: 100%;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #161038;
+    text-align: center;
+}
+
+.coin-number{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.coin{
+    width: 46px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #161038;
+    padding-top: 10px;
+}
+
+.number{
+    width: 130px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #161038;
+    padding-left: 10px;
+
+}
+.rectangle-plus{
+    padding-bottom: 20px;
+}
+
+.rectangle{
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    border: solid 2px #e0e0e1;
+    margin: auto;
+
+}
+.rectangle img{
+    padding-top: 21px;
+    display: block;
+    margin: auto;
+
+}
+
+.box-1{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.card-1{
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    background-color: #e3e2e7;
+    border: solid 2px #5c5874;
+    margin:auto;
+}
+
+.card-1 h1{
+    width: 100%;
+    height: 21px;
+    font-family: Menlo;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #161038;
+    padding-top:20px;
+    padding-left: 20px;
+}
+.card-1 img{
+    width: 49.4px;
+    height: 16px;
+    float: right;
+    margin-right: 19.6px;
+}
+
+
+.box-2{
+    padding-top: 58px;
+}
+
+.card-2{
+    width: 100%;
+    height: 210px;
+    border-radius: 12px;
+    border: solid 2px #161038;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+
+.card-2 h2{
+    width: 100%;
+    height: 21px;
+    font-family: Menlo;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #161038;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.master {
+    width: 56px;
+    height: 36px;
+    display: block;
+    margin: 63px auto 11px;
+}
+
+.user{
+    width: 100%;
+    font-size: 80%;
+    padding: 36px 40px 20px 40px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.card-2 h3{
+    width: 87px;
+    height: 19px;
+    font-family: Menlo;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b2b2b5;
+}
+
+.x {
+    width: 16px;
+    height: 16px;
+
+}
+
+.card-2 h4{
+    width: 58px;
+    height: 19px;
+    font-family: Menlo;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #b2b2b5;
+}
+
+.data{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.data3{
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #b2b2b5;
+    background-color: #ffffff;
+    padding: 8px 10px;
+
+}
+
+.year-data h3 {
+    width: 180px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #89888c;
+    margin-bottom: 10px;
+}
+
+.btn-container{
+    max-width: 580px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.btn ul, li {
+    list-style: none;
+}
+
+.btn-back ul, li, li{
+    padding-top: 68px;
+
+}
+
+.btn-back{
+    width: 104px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #161038;
+    text-decoration: none;
+}
+
+.btn-forward{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #faa317;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #161038;
+    border-radius: 3px;
+    padding: 10px;
+
+}
+
+.footer {
+    margin-top: 4%;
+}
+
+.pay-method {
+    width: 152px;
+    height: 28px;
+    margin: auto;
+
+}
+
+.visa {
+    width: 43px;
+    height: 14px;
+    opacity: 0.3;
+    float: left;
+    margin-top: 11px;
+}
+
+.mastercard {
+    width: 28px;
+    height: 28px;
+    opacity: 0.3;
+    float: left;
+    margin-left: 5px;
+}
+
+.pci {
+    width: 57px;
+    height: 22px;
+    opacity: 0.3;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2.5px;
+}
+
+.secureText {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b2b2b5;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+/*smartphone*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+
+    .instapay h1 {
+        margin: auto 20px;
+        padding-top: 24px;
+
+    }
+
+    .instapay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        z-index: 100;
+    }
+
+    .yellow-bar{
+        margin: 88px 0 0;
+    }
+
+    .by {
+        margin: auto 20px;
+        padding-top: 15px;
+    }
+
+    .main{
+        padding: 10px 15px;
+    }
+
+    .coin-number{
+        padding-top: 5px;
+    }
+
+    .rectangle-plus{
+        width: 95%;
+        padding-left: 10px;
+    }
+
+    .card-1 h1{
+        font-size: 100%;
+    }
+
+    .box-2{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .user{
+        padding-top: 3px;
+    }
+
+    .master{
+        width: auto;
+        height: auto;
+        padding-top: 13px;
+        padding-bottom: 20px;
+    }
+
+    .year-data h3 {
+        width: 100%;
+    }
+
+    .image-btn {
+        margin: -2.5% 46%;
+    }
+    .main{
+        padding-top: 15px;
+    }
+
+    .btn{
+        margin: auto 10px;
+    }
+    .footer {
+        margin-top: 20%;
+    }
+}
+
+
+@media only screen and (max-width: 381px){
+    .card-1{
+        width: 87%;
+    }
+
+    .card-2{
+        width: 100%;
+    }
+
+    .secureText {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 661px) {
+    .yellow-bar{
+        margin: 86px 0 0;
+    }
+}
+
+@media only screen and (max-width: 582px) {
+    .yellow-bar{
+        margin: 84px 0 0;
+    }
+}
+
+@media only screen and (max-width: 501px) {
+    .yellow-bar{
+        margin: 82px 0 0;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+    .yellow-bar{
+        margin: 80px 0 0;
+    }
+}
+
+@media only screen and (max-width: 341px) {
+    .yellow-bar{
+        margin: 78px 0 0;
+    }
+}

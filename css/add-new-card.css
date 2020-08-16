@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-container {
+    max-width: 580px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+
+.instapay-add-new-card{
+    font-family: Roboto;
+
+}
+
+.instapay {
+    height: 70px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.instapay h1 {
+    height: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    float: left;
+    padding-top: 15px;
+    margin-left: 120px;
+}
+
+.instapay h1 .text-style-1 {
+    font-weight: normal;
+}
+
+.header {
+    height: 40px;
+    background-color: #fcde99;
+}
+
+.by {
+    width: 83px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #3f3e45;
+    float: left;
+    padding-top: 15px;
+    margin-left: 120px;
+}
+
+.image-btn {
+    width: 28px;
+    height: 32px;
+    display: block;
+    padding: 4px;
+    margin: auto;
+}
+
+
+.new-card h4{
+    width: 176px;
+    height: 36px;
+    font-size: 28px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #161038;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.box-card{
+    width: 100%;
+    display:flex;
+    padding-top: 60px;
+    margin: auto;
+    justify-content: center;
+
+}
+.back {
+    margin-left: 20px;
+}
+
+.contact {
+    display:flex;
+    padding-top: 60px;
+    padding-bottom: 53px;
+
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.contact-form:first-child {
+    padding-right: 10px;
+}
+
+.contact-form:last-child {
+    padding-left: 10px;
+}
+
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: solid 1px #b2b2b5;
+    background-color: #ffffff;
+    padding: 8px 10px;
+
+}
+
+.form-control1 {
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: solid 1px #b2b2b5;
+    background-color: #ffffff;
+    padding: 8px 10px;
+
+}
+
+.contact-form h5 {
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #89888c;
+    margin-bottom: 10px;
+}
+
+.contact-form h6 {
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #89888c;
+    margin-bottom: 10px;
+}
+
+.item{
+    max-width: 580px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+
+.item1{
+    display:flex;
+    justify-content: space-between;
+    margin: auto 1.5px;
+
+}
+
+.year-data1{
+    padding-left: 20px;
+    margin: auto;
+}
+
+.year-data2{
+    padding-left: 20px;
+    margin: auto;
+}
+
+
+#month{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #b2b2b5;
+    background-color: #ffffff;
+    color: #89888c;
+}
+
+.month{
+    width: 132px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #89888c;
+    padding: 8px 10px;
+
+}
+
+#year{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #b2b2b5;
+    background-color: #ffffff;
+    color: #89888c;
+}
+
+.data{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: solid 1px #161038;
+    background-color: #ffffff;
+    padding: 8px 10px;
+}
+
+.year-data p,.year-data1 p, .year-data2 h3 {
+    width: 180px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #89888c;
+    margin-bottom: 10px;
+}
+
+.btn-container{
+    max-width: 580px;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+
+.btn{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.btn ul, li {
+    list-style: none;
+}
+
+.btn-back ul, li, li{
+    padding-top: 68px;
+
+}
+
+.btn-back{
+    width: 104px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #161038;
+    text-decoration: none;
+    margin-left: 19px;
+}
+
+.btn-forward{
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #faa317;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #161038;
+    padding: 8px 15px;
+}
+
+.footer {
+    margin-top: 6%;
+}
+
+.pay-method {
+    width: 152px;
+    height: 28px;
+    margin: auto;
+
+}
+
+.visa {
+    width: 43px;
+    height: 14px;
+    opacity: 0.3;
+    float: left;
+    margin-top: 11px;
+}
+
+.mastercard {
+    width: 28px;
+    height: 28px;
+    opacity: 0.3;
+    float: left;
+    margin-left: 5px;
+}
+
+.pci {
+    width: 57px;
+    height: 22px;
+    opacity: 0.3;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2.5px;
+}
+
+.secureText {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b2b2b5;
+    margin: auto;
+    padding-top: 10px;
+}
+
+/*smartphone*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+
+    .instapay h1 {
+        margin: auto 20px;
+        padding-top: 24px;
+
+    }
+
+    .instapay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+
+    .yellow-bar{
+        margin: 88px 0 0;
+    }
+
+    .by {
+        margin: auto 24px;
+        padding-top: 15px;
+    }
+
+    .image-btn {
+        margin: -2.5% 46%;
+    }
+
+    .new-card h4{
+        padding-top: 30px;
+    }
+
+    .box-card {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .front{
+        width: 100%;
+        height: auto;
+    }
+
+    .back{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        margin-left: 0;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 12px;
+
+    }
+    .contact-form:first-child {
+        padding-right: 0;
+    }
+
+    .contact-form:last-child {
+        padding-top: 15px;
+        padding-left: 0;
+    }
+
+    .item{
+        margin: auto;
+    }
+
+    .item1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: auto 10px;
+    }
+    .year-data {
+        width: 104%;
+        padding: 0 20px 0 0;
+        margin: auto;
+    }
+
+    .year-data1{
+        width: 104%;
+        padding: 15px 20px 15px 0;
+        margin: auto;
+    }
+    .year-data2{
+        width: 104%;
+        padding: 0 20px 0 0;
+        margin: auto;
+    }
+
+    .data{
+        width: 100%;
+    }
+
+    .btn{
+        margin: auto;
+        padding-right: 12px;
+    }
+    .footer {
+        margin-top: 37%;
+    }
+}
+
+
+@media only screen and (max-width: 661px) {
+    .yellow-bar{
+        margin: 86px 0 0;
+    }
+}
+
+@media only screen and (max-width: 582px) {
+    .yellow-bar{
+        margin: 84px 0 0;
+    }
+}
+
+@media only screen and (max-width: 501px) {
+    .yellow-bar{
+        margin: 82px 0 0;
+    }
+}
+
+@media only screen and (max-width: 422px) {
+    .yellow-bar{
+        margin: 80px 0 0;
+    }
+}
+
+@media only screen and (max-width: 341px) {
+    .yellow-bar{
+        margin: 78px 0 0;
+    }
+}
